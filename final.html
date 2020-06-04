@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HBD Mumma</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpeg">
+    <link rel="stylesheet" href="final.css">
+  </head>
+  <body>
+
+      <video autoplay muted loop id="myVideo">
+        <source src="videos\openpagbackgnd.mp4" type="video/mp4">
+      </video>
+
+    <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+
+    // Get the button
+    var btn = document.getElementById("myBtn");
+
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+      <div style='width:50%;float:left;vertical-align:middle;'>
+        <h1>Happy Birthday Mumma</h1>
+        </div>
+        <div style='width:50%;float:right;'>
+          <h1>
+          <button id="myBtn" onclick="myFunction()">Pause</button>
+          </h1>
+          </div>
+      <!-- Use a button to pause/play the video with JavaScript -->
+
+    </div>
+  </body>
+</html>
+<!-- The video -->

@@ -1,0 +1,47 @@
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+@keyframes color-change{
+  0%{
+    background-color: hotpink;
+    color: white;
+  }
+  25%{
+    background-color: #000839;
+    color: #f9f9f9;
+  }
+  50%{
+    background-color: #005082;
+    color: #e43f5a;
+  }
+  75%{
+    background-color: #00bdaa;
+    color: #f9f9f9;
+  }
+  100%{
+    background-color: #00a8cc;
+    color: #ffacb7;
+  }
+}
+
+img{
+  height: 700px;
+}
+
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  height: 140px;
+}
+
+.main{
+  top: 50%;
+}
