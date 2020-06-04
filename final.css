@@ -16,7 +16,7 @@ body{
   }
 }
 
-#myVideo {
+iframe {
   position: absolute;
   right: 0;
   bottom: 0;
